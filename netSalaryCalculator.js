@@ -88,4 +88,5 @@ const housingLevy = Math.floor(grossSalary * 0.015);
 const netSalary = grossSalary - paye - nhifDeductions - nssfDeductions - housingLevy;
 
 // Prints results
-console.log("Net Salary: KES", netSalary);
+console.log("Your Net Salary is: KES", netSalary);
+prompt(`\n Your Net Salary is: KES ${netSalary}\n`);
